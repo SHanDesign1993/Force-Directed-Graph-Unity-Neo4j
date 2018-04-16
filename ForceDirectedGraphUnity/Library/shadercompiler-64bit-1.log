@@ -1,0 +1,822 @@
+Base path: /opt/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1--1058547072
+Cmd: getPlatforms
+Cmd: preprocess
+  insize=9227 outsize=2043 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (43): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (44): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (45): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (46): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (56): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (57): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (58): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (59): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (126): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (145): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (163): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (184): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (203): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (212): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (221): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (227): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (228): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (229): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (230): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=7402 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=11029 outsize=663 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (36): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (37): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (38): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (39): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (40): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (81): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (82): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (83): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (84): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (85): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (120): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (121): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (131): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (132): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (133): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (134): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (187): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (188): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (189): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (190): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (191): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (200): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (201): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (202): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (203): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (231): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (232): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=10595 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1401 outsize=473 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1230 outsize=760 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1230 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=435 outsize=435 ok=1
+Cmd: preprocess
+  insize=1615 outsize=2301 ok=1
+Cmd: preprocess
+  insize=1131 outsize=407 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (27): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=1023 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=11318 outsize=798 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (49): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (50): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (51): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (100): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (110): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (111): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (112): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (113): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (124): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (131): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (132): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (135): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (136): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (169): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (170): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (171): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (172): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (174): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (175): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (176): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (177): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (195): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (205): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (211): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (212): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (213): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (214): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (216): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (217): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (218): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (219): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (241): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=10728 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1689 outsize=334 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (38): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=1657 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=930 outsize=330 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (26): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=905 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=993 outsize=289 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (28): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=1009 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=2050 outsize=467 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (29): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (30): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=1885 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1386 outsize=387 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (33): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (34): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=1304 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=3925 outsize=639 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (35): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (36): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (37): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (38): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (51): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (56): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (86): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (100): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=3573 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1454 outsize=2247 ok=1
+Cmd: preprocess
+  insize=1230 outsize=384 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (27): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=1151 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=6635 outsize=781 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1952 outsize=3099 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1952 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2216 outsize=3684 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2216 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2722 outsize=4836 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2722 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2998 outsize=5399 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2998 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (263): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (264): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=2062 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1301 outsize=289 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (28): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (29): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (30): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (31): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=1317 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1044 outsize=1035 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=6944 outsize=2243 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=6944 outsize=6 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3915 outsize=1813 kw=POINT ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3915 outsize=6 kw=POINT ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3333 outsize=2274 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3333 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=2913 outsize=753 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (54): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (55): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (59): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (63): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (67): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (68): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (69): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (70): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=2431 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=883 outsize=277 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=911 outsize=504 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=911 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=1513 outsize=365 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (33): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (34): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (35): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (36): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=1450 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1460 outsize=325 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (41): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  api=0 type=0 insize=1440 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1868 outsize=255 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1918 outsize=1194 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1918 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=1409 outsize=330 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (38): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=1381 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1323 outsize=303 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (47): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (51): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=1324 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=2298 outsize=619 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (44): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=1985 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=966 outsize=252 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (44): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=1014 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=701 outsize=302 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (23): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=699 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=6615 outsize=1036 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (41): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (66): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (67): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (68): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (69): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (150): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (192): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (196): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (197): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=5796 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=32860 outsize=255 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (129): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  error: 2 plat 0 at (144): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (159): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  api=0 type=0 insize=32907 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1199 outsize=241 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (56): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=1259 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=4489 outsize=505 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (128): 'UnityStereoTransformScreenSpaceTex' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (132): 'UnityStereoTransformScreenSpaceTex' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=4172 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=992 outsize=248 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1045 outsize=946 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1045 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=5828 outsize=1778 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (55): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (56): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (61): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (62): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (67): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (68): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (73): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (74): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (79): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (83): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (91): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (96): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (100): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (101): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (102): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (103): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (104): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (110): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (111): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (112): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (113): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=4256 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=13377 outsize=1893 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (100): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=11661 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1025 outsize=333 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (38): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=997 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=6203 outsize=732 ok=1
+Cmd: preprocess
+  insize=2834 outsize=762 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (33): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (40): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=2346 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=11756 outsize=2579 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (163): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (176): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (267): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (274): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (275): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (280): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (282): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (283): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (284): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (285): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (286): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (295): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (297): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  api=0 type=0 insize=9415 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=2810 outsize=1156 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1956 outsize=1293 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1956 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=13869 outsize=2311 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (63): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (72): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (73): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (74): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (75): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (77): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (78): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (79): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (80): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (143): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (145): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (146): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (147): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (148): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (164): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (171): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (177): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (179): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (181): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (186): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (192): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (199): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (209): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (211): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (226): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (240): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (248): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (269): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (274): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=11648 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1909 outsize=438 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1746 outsize=1032 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1746 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1759 outsize=1157 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1759 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=1568 outsize=642 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1232 outsize=780 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1232 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=1944 outsize=277 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (43): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (44): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (45): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (46): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (47): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (48): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (49): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (50): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (51): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=1972 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=26137 outsize=4108 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (84): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (85): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (86): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (87): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (88): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (89): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (156): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (168): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (186): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (199): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (200): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (230): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (231): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (243): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (256): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (257): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (269): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (283): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (284): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (286): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (296): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (311): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (312): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (343): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (344): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (345): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (346): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (468): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (470): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (471): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (472): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (473): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (488): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (489): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (500): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (510): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (515): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (518): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (528): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (529): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (537): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (548): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (558): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (564): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (579): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=21383 outsize=0 kw= ok=0
+Cmd: preprocess
+  error: 2 plat 16 at (49): Too many texture interpolators would be used for ForwardBase pass (11 out of max 10)
+  insize=6697 outsize=2024 ok=0
+Cmd: preprocess
+  insize=4002 outsize=531 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (61): 'UnityStereoTransformScreenSpaceTex' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=3777 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=2141 outsize=280 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (55): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (56): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (57): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (58): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (64): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (68): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (69): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (70): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (71): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (72): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=2163 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1168 outsize=333 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (44): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (45): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (50): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=1137 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1174 outsize=435 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (28): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=1014 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=737 outsize=249 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (20): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=788 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=5862 outsize=854 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (41): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (42): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (43): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (44): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (184): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (185): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=5223 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=6090 outsize=738 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (54): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (55): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (56): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (57): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (58): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (59): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (67): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (68): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (69): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (70): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (71): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (72): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (73): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (80): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (81): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (82): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (83): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (84): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (85): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (86): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=5524 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=584 outsize=341 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (24): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=545 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=8525 outsize=1128 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (126): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (127): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (134): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (148): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (157): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (171): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (180): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (194): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (203): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (217): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (226): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (240): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (251): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (265): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=7439 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1459 outsize=506 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1255 outsize=764 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1255 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=32870 outsize=255 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (128): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  error: 2 plat 0 at (143): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (158): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  api=0 type=0 insize=32917 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=5286 outsize=1721 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (104): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  error: 2 plat 0 at (114): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  error: 2 plat 0 at (144): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  error: 2 plat 0 at (145): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  error: 2 plat 0 at (150): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  error: 2 plat 0 at (151): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  api=0 type=0 insize=3869 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=6937 outsize=236 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (123): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  error: 2 plat 0 at (124): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  error: 2 plat 0 at (125): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  error: 2 plat 0 at (126): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  error: 2 plat 0 at (127): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  error: 2 plat 0 at (152): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  error: 2 plat 0 at (153): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  error: 2 plat 0 at (155): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  error: 2 plat 0 at (156): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  api=0 type=0 insize=7003 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=5499 outsize=418 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (51): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (52): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (53): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (54): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (55): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (56): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (57): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (58): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (73): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (74): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (75): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (76): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (77): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (86): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (87): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (88): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (89): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (90): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (91): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (92): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (93): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (108): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (109): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (110): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (111): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (112): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=5335 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=5320 outsize=887 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (62): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (66): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (73): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (77): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (98): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (113): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (116): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (141): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (144): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=4655 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1310 outsize=384 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1228 outsize=819 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1228 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=5895 outsize=1219 ok=1
+Cmd: preprocess
+  insize=716 outsize=286 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=732 outsize=348 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=732 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=720 outsize=299 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (23): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=721 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=4345 outsize=631 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (45): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (46): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (47): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (48): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (49): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (50): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (51): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (58): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (59): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (60): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (61): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (62): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (63): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (64): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=3927 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=862 outsize=275 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (24): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=891 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1461 outsize=270 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (29): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (31): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (32): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (33): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=1494 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=2015 outsize=946 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=859 outsize=504 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=859 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=814 outsize=403 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=814 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=5161 outsize=700 ok=1
+Cmd: preprocess
+  insize=1081 outsize=470 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (34): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=913 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1139 outsize=364 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1080 outsize=1126 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1080 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=512 outsize=241 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=573 outsize=208 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=573 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=718 outsize=290 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (23): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=733 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=5652 outsize=920 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (39): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (40): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (41): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (42): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (108): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (121): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (124): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (125): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (126): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (136): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found; 'constructor' : not enough data provided for construction\nCompiling Vertex program
+  error: 2 plat 0 at (139): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (140): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  error: 2 plat 0 at (141): 'UnityStereoScreenSpaceUVAdjust' : no matching overloaded function found\nCompiling Vertex program
+  api=0 type=0 insize=4961 outsize=0 kw= ok=0
+Cmd: compileSnippet
+  api=0 type=0 insize=541 outsize=1893 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=541 outsize=6 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=7523 outsize=4319 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=7523 outsize=6 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4918 outsize=3208 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4918 outsize=6 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=751 outsize=1893 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=751 outsize=6 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=982 outsize=13066 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _PARALLAXMAP _NORMALMAP ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=982 outsize=6 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _PARALLAXMAP _NORMALMAP ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=938 outsize=7691 kw=DIRECTIONAL SHADOWS_OFF _PARALLAXMAP _NORMALMAP ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=938 outsize=6 kw=DIRECTIONAL SHADOWS_OFF _PARALLAXMAP _NORMALMAP ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=982 outsize=13099 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _PARALLAXMAP _METALLICGLOSSMAP _NORMALMAP ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=982 outsize=6 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _PARALLAXMAP _METALLICGLOSSMAP _NORMALMAP ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=938 outsize=7735 kw=DIRECTIONAL SHADOWS_OFF _PARALLAXMAP _METALLICGLOSSMAP _NORMALMAP ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=938 outsize=6 kw=DIRECTIONAL SHADOWS_OFF _PARALLAXMAP _METALLICGLOSSMAP _NORMALMAP ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1333 outsize=1134 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1333 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1329 outsize=1129 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1329 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1329 outsize=1129 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1329 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1333 outsize=1134 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1333 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1321 outsize=1119 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1321 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1331 outsize=1129 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1331 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=982 outsize=11658 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _NORMALMAP ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=982 outsize=6 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _NORMALMAP ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=938 outsize=6447 kw=DIRECTIONAL SHADOWS_OFF _NORMALMAP ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=938 outsize=6 kw=DIRECTIONAL SHADOWS_OFF _NORMALMAP ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3915 outsize=1467 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3915 outsize=6 kw=DIRECTIONAL ok=1
+End of pipe
+
+Quitting shader compiler process

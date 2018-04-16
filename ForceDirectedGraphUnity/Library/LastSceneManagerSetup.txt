@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/ForceDirectedGraph/Scene/GraphDemo.unity
+  isLoaded: 1
+  isActive: 1
