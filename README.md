@@ -14,14 +14,12 @@ Demo Video on Youtube:</br>
 
 # Structure:
 
-► <b>NeoUnity: VS Folder</b></br> 
-defination of Neo4j data class such like Nodes and Relationships</br></br> 
+► <b>NeoUnity(VS Folder) : defination of Neo4j data class such like Nodes and Relationships</b></br>
  - Server.cs : connect to Neo4j server and put data value in Node and Relationship class
 
 it produced NeoUnity.dll for unity project below.
 </br> </br> 
-► <b>ForceDirectedGraph: Unity Folder</b></br> 
-Render force directed graph by neo4j movie data</br></br> 
+► <b>ForceDirectedGraph(Unity Folder) : Render force directed graph by neo4j movie data</b></br> 
 
 Frontend(On Graph Object in Scene):
  - ServerConnector.cs: setup data entity(movie and person) , server settings.
