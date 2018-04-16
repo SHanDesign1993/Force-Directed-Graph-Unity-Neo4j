@@ -35,4 +35,4 @@ Backend:
  - GraphScene.cs : set nodes distance by updating SpringJoint Rigidbody SphereCollider component 
  - NodeComponent.cs : extend AbstractSceneComponent.cs Interface. Initial Node gameObject.
  - EdgeComponent.cs : extend AbstractSceneComponent.cs Interface. Set LineRenderer between 2 Node gameObjects.
- - SpringLayout : extend AbstractGraphLayout.cs Interface. Calculate force directed physics between nodes. 
+ - FruchtermanReingoldLayout.cs : extend AbstractGraphLayout.cs Interface. Calculate force directed physics between nodes. 
