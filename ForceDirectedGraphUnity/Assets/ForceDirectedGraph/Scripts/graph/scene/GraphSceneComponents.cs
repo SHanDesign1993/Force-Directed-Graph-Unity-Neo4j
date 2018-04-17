@@ -10,8 +10,8 @@ namespace AssemblyCSharp
 
 	public class GraphSceneComponents
 	{
-		private List<NodeComponent> nodeComponents = new List<NodeComponent>();
-		private List<EdgeComponent> edgeComponents = new List<EdgeComponent>();
+		public List<NodeComponent> nodeComponents = new List<NodeComponent>();
+        public List<EdgeComponent> edgeComponents = new List<EdgeComponent>();
 
 		public GraphSceneComponents ()
 		{

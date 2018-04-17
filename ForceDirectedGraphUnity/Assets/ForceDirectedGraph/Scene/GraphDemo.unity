@@ -679,6 +679,16 @@ Prefab:
       propertyPath: m_Name
       value: AlertPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 224002918400913554, guid: b731b38d340afba42aafa359cd1d8dc9,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224019168326518774, guid: b731b38d340afba42aafa359cd1d8dc9,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b731b38d340afba42aafa359cd1d8dc9, type: 2}
   m_IsPrefabParent: 0
@@ -723,10 +733,16 @@ MonoBehaviour:
   graphScenePrefabs: {fileID: 1629164530}
   RelationTypePrefab: {fileID: 1885236127174136, guid: a9189b8671b509240ad5eca7f446e6d6,
     type: 2}
+  RepulseActive: 1
+  repulseForceStrength: 500
+  linkForceStrength: 50
+  linkIntendedLinkLength: 15
+  globalGravityPhysX: 10
+  nodePhysXForceSphereRadius: 50
   LineOriginColor: {r: 0.8416955, g: 0.97727895, b: 1, a: 1}
   LineSelectedColor: {r: 1, g: 0.97789043, b: 0.19852942, a: 0}
   cam: {fileID: 344136474}
-  Zoom: 200
+  Zoom: 150
   MinZoom: 1
   MaxZoom: 300
   ZoomSpeed: 30
@@ -756,7 +772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5330273cfafdcb47a8fc088a8fde653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NodePrefab: {fileID: 1328224405612812, guid: 7c4af07aa5e742b4086d94d30503d084, type: 2}
+  NodePrefab: {fileID: 1250673915946288, guid: 4dcd9bc6f6df2f942acd9e581ff42b6d, type: 2}
   EdgePrefab: {fileID: 1887111784152414, guid: 59c7f65a33ef0484f9d766c51a73a626, type: 2}
 --- !u!75 &1629164531
 ConstantForce:
@@ -777,8 +793,8 @@ Rigidbody:
   m_GameObject: {fileID: 1629164527}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 10
-  m_AngularDrag: 10
+  m_Drag: 50
+  m_AngularDrag: 50
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -798,7 +814,7 @@ MonoBehaviour:
   Entity1_Str: Movie
   Entity2_Str: Person
   QueryText: {fileID: 138156984}
-  QueryLimit: 300
+  QueryLimit: 250
   Username: neo4j
   Password: 1234
   IP: 127.0.0.1:7474

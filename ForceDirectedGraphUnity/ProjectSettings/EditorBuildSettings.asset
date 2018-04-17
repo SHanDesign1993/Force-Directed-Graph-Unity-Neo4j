@@ -4,7 +4,4 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/ForceDirectedGraph/Scene/GraphDemo.unity
-    guid: 519fce2adf8ee8d40a67c7a1e2fb06f1
+  m_Scenes: []

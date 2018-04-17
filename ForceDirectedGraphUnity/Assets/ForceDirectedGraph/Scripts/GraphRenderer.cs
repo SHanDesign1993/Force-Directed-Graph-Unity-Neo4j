@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class GraphRenderer : MonoBehaviour {
     public static GraphRenderer Singleton;
+
     [Header("UI Status")]
     public Text StatusText;
     public Text ResultText;
@@ -25,6 +26,23 @@ public class GraphRenderer : MonoBehaviour {
     private List<Relationship> rtypeList =new List<Relationship>();
 
     [Header("Graph Setting")]
+    public bool RepulseActive = true;
+    [SerializeField]
+    public float repulseForceStrength = 0.1f;
+
+    [SerializeField]
+    public float linkForceStrength = 6F;
+
+    [SerializeField]
+    public float linkIntendedLinkLength = 5F;
+
+    [SerializeField]
+    public float globalGravityPhysX = 10f;
+    
+    [SerializeField]
+    public float nodePhysXForceSphereRadius = 50F;                  
+    
+
     public Color LineOriginColor;
     public Color LineSelectedColor;
 
@@ -65,7 +83,6 @@ public class GraphRenderer : MonoBehaviour {
     public void GetNeoData(List<NeoUnity.Neo4j.GraphData> data)
     {
         ClearGraph();
-
         foreach (NeoUnity.Neo4j.GraphData graphdata in data)
         {
             //loop though all neo4j nodes and make our nodes from it
@@ -129,14 +146,11 @@ public class GraphRenderer : MonoBehaviour {
 
 	void Update ()
 	{
-		graphScene.Update (1);
-        UpdateTypePos();
-
+        graphScene.Update (1);
+ 
         // Mouse Input Action.
         if (Input.GetMouseButton(0))
         {
-            Ray r = cam.ScreenPointToRay(Input.mousePosition);
-
             Ray mouseRay = GenerateMouseRay();
             RaycastHit hit;
 
@@ -149,6 +163,7 @@ public class GraphRenderer : MonoBehaviour {
                     Selected = false;
                 }
             }
+            UpdateTypePos();
         }
 
         if (SelectedObject)
@@ -287,4 +302,5 @@ public class GraphRenderer : MonoBehaviour {
             rt.RelationshipTypeObj.transform.position = (rt.Node1.transform.position + rt.Node2.transform.position) / 2;
         }
     }
+
 }

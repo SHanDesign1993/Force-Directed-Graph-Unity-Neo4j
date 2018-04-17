@@ -8,15 +8,15 @@ namespace AssemblyCSharp
 		private Graph graph;
 		private GraphSceneComponents graphSceneComponents;
 		private GraphScenePrefabs graphScenePrefabs;
-		private AbstractGraphLayout graphLayout;
+		private ForceDirectedGraphLayout graphLayout;
+
 
 		public GraphScene (Graph graph, GraphScenePrefabs graphScenePrefabs)
 		{
 			this.graph = graph;
 			this.graphScenePrefabs = graphScenePrefabs;
 			this.graphSceneComponents = new GraphSceneComponents ();
-			this.graphLayout = new SpringLayout (this.graphSceneComponents);
-
+			this.graphLayout = new ForceDirectedGraphLayout(this.graphSceneComponents);
 			this.graph.AddGraphListener (this);
 		}
 
@@ -27,7 +27,7 @@ namespace AssemblyCSharp
 			});
 
 			graphLayout.DoInitialLayout ();
-		}
+        }
 
 		public void GraphNodeCreated(AbstractGraphNode graphNode)
 		{
@@ -69,8 +69,8 @@ namespace AssemblyCSharp
 				return;
 			}
 
-			SpringJoint spring = endNode.GetVisualComponent ().GetComponent<SpringJoint> ();
-			spring.connectedBody = startNode.GetVisualComponent ().GetComponent<Rigidbody> ();
+			//SpringJoint spring = endNode.GetVisualComponent ().GetComponent<SpringJoint> ();
+			//spring.connectedBody = startNode.GetVisualComponent ().GetComponent<Rigidbody> ();
 
 			// checking if there is any other edge connecting the same nodes
 			long sameNodeConnections = 0;
@@ -89,6 +89,7 @@ namespace AssemblyCSharp
 			if (sameNodeConnections > 1) {
 				edgeComponent.MultiEdge = true;
 			}
+            
 		}
 
 		public NodeComponent RandomNode()
@@ -98,43 +99,9 @@ namespace AssemblyCSharp
 
 		public void Update(float time)
 		{
-			graphSceneComponents.AcceptEdge (edgeComponent => {
-				AbstractGraphEdge edge = edgeComponent.GetGraphEdge();
-				AbstractGraphNode startNode = edge.GetStartGraphNode();
-				AbstractGraphNode endNode = edge.GetEndGraphNode();
+            graphLayout.DoLayout(time); 
+        }
 
-				NodeComponent startNodeComponent = graphSceneComponents.GetNodeComponent (startNode.GetId());
-				NodeComponent endNodeComponent = graphSceneComponents.GetNodeComponent (endNode.GetId());
-
-				// ---- distance function start
-				float distance = 1F / startNode.GetDegree();
-				distance *= 100;
-				distance *= 3;
-
-				SpringJoint springJoint = endNodeComponent.GetVisualComponent().GetComponent<SpringJoint>();
-				springJoint.maxDistance = distance;
-				springJoint.minDistance = distance;
-
-				SphereCollider collider = endNodeComponent.GetVisualComponent().transform.GetChild(1).GetComponent<SphereCollider>();
-				collider.radius = distance * 0.1F;
-
-
-                endNodeComponent.GetVisualComponent().GetComponent<Rigidbody>().mass = 5;
-				// ---- distance function end
-
-				// magic
-				Rigidbody body = endNodeComponent.GetVisualComponent().GetComponent<Rigidbody>();
-				body.inertiaTensor = new Vector3(0.01F, 0.01F, 0.01F);
-
-				edgeComponent.UpdateGeometry(
-					startNodeComponent.GetVisualComponent().transform.position, 
-					endNodeComponent.GetVisualComponent().transform.position);
-			});
-
-
-
-
-			// graphLayout.DoLayout (time);
-		}
+        
 	}
 }

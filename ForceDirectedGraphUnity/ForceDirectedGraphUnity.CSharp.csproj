@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{5D58DC8B-176F-C73F-BC6C-13E1C769B710}</ProjectGuid>
+    <ProjectGuid>{8625E5AD-4B58-0AA4-A260-B43BB8416ED4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AssemblyName>Assembly-CSharp</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -106,11 +106,7 @@
     <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\GraphListener.cs" />
     <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\GraphListeners.cs" />
     <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\GraphNodeVisitor.cs" />
-    <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\layout\AbstractGraphLayout.cs" />
-    <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\layout\ForceVectorNodeLayoutData.cs" />
-    <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\layout\fruchterman\FruchtermanReingoldLayout.cs" />
-    <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\layout\spring\SpringLayout.cs" />
-    <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\layout\spring\SpringLayoutData.cs" />
+    <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\layout\ForceDirectedGraphLayout.cs" />
     <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\RootNode.cs" />
     <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\scene\AbstractSceneComponent.cs" />
     <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\scene\EdgeComponent.cs" />

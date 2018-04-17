@@ -8,8 +8,12 @@ namespace AssemblyCSharp
 	{
 		public bool MultiEdge = false;
 		private AbstractGraphEdge graphEdge;
+        public Relationship relationship;
 
-		public EdgeComponent (AbstractGraphEdge graphEdge, GameObject visualComponent) : base(visualComponent)
+        public Rigidbody sourceRb;
+        public Rigidbody targetRb;
+
+        public EdgeComponent (AbstractGraphEdge graphEdge, GameObject visualComponent) : base(visualComponent)
 		{
 			this.graphEdge = graphEdge;
 			InitializeEdgeComponent ();
@@ -27,14 +31,16 @@ namespace AssemblyCSharp
 			float zRotation = Mathf.Cos (Mathf.Deg2Rad * angle) * 100;
 			GetVisualComponent().transform.Rotate(new Vector3 (xRotation, yRotation, zRotation));
 
-            Relationship r = GetVisualComponent().GetComponent<Relationship>();
-            
-            r.Node1 = GameObject.Find("Node_" + graphEdge.GetStartGraphNode().GetId().ToString()).GetComponent<Node>();
-            r.Node2 = GameObject.Find("Node_" + graphEdge.GetEndGraphNode().GetId().ToString()).GetComponent<Node>();
-            r.RelationshipType = graphEdge.GetRType();
+            relationship = GetVisualComponent().GetComponent<Relationship>();
+            relationship.LR = line;
+            relationship.Node1 = GameObject.Find("Node_" + graphEdge.GetStartGraphNode().GetId().ToString()).GetComponent<Node>();
+            relationship.Node2 = GameObject.Find("Node_" + graphEdge.GetEndGraphNode().GetId().ToString()).GetComponent<Node>();
+            relationship.RelationshipType = graphEdge.GetRType();
+            sourceRb = relationship.Node1.GetComponent<Rigidbody>();
+            targetRb = relationship.Node2.GetComponent<Rigidbody>();
         }
 
-		public AbstractGraphEdge GetGraphEdge()
+        public AbstractGraphEdge GetGraphEdge()
 		{
 			return graphEdge;
 		}

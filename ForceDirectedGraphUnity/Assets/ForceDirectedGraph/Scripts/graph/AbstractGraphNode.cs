@@ -16,7 +16,7 @@ namespace AssemblyCSharp
 
         public abstract string GetTitle();
 
-        public abstract string GetType();
+        public abstract string GetNType();
 
         public abstract int GetNid();
         

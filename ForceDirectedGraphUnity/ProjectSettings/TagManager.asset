@@ -5,8 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - RType
-  - Node
   - Edge
+  - Node
   layers:
   - Default
   - TransparentFX
@@ -16,7 +16,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Node
   - 
   - 
   - 

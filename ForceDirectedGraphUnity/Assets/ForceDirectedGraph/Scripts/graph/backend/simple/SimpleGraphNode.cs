@@ -11,8 +11,9 @@ namespace AssemblyCSharp
         private string ntype;
         private string ntitle;
         private string ncontent;
+        public long EdgeCount = 0;
 
-		public SimpleGraphNode (SimpleGraphBackend simpleGraphBackend, long id , int nid , string ntype ,string ntitle ,string ncontent)
+        public SimpleGraphNode (SimpleGraphBackend simpleGraphBackend, long id , int nid , string ntype ,string ntitle ,string ncontent)
 		{
 			this.graphBackend = simpleGraphBackend;
 			this.id = id;
@@ -59,7 +60,7 @@ namespace AssemblyCSharp
             return ncontent;
         }
 
-        public override string GetType()
+        public override string GetNType()
         {
             return ntype;
         }
