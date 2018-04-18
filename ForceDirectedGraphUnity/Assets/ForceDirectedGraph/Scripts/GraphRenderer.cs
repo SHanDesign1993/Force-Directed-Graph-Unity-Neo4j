@@ -26,7 +26,7 @@ public class GraphRenderer : MonoBehaviour {
     private List<Relationship> rtypeList =new List<Relationship>();
 
     [Header("Graph Setting")]
-    public bool RepulseActive = true;
+    private bool RepulseActive = true;
     [SerializeField]
     public float repulseForceStrength = 0.1f;
 

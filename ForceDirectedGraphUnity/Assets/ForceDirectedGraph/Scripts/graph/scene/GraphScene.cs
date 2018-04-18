@@ -65,7 +65,8 @@ namespace AssemblyCSharp
 
 			NodeComponent startNode = graphSceneComponents.GetNodeComponent (edgeComponent.GetGraphEdge().GetStartGraphNode().GetId());
 			NodeComponent endNode = graphSceneComponents.GetNodeComponent (edgeComponent.GetGraphEdge().GetEndGraphNode().GetId());
-			if (endNode == null) {
+           
+            if (endNode == null) {
 				return;
 			}
 

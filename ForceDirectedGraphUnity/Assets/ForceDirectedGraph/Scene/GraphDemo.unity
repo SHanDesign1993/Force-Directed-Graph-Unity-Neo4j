@@ -733,16 +733,15 @@ MonoBehaviour:
   graphScenePrefabs: {fileID: 1629164530}
   RelationTypePrefab: {fileID: 1885236127174136, guid: a9189b8671b509240ad5eca7f446e6d6,
     type: 2}
-  RepulseActive: 1
-  repulseForceStrength: 500
-  linkForceStrength: 50
-  linkIntendedLinkLength: 15
+  repulseForceStrength: 100
+  linkForceStrength: 100
+  linkIntendedLinkLength: 25
   globalGravityPhysX: 10
-  nodePhysXForceSphereRadius: 50
+  nodePhysXForceSphereRadius: 10
   LineOriginColor: {r: 0.8416955, g: 0.97727895, b: 1, a: 1}
   LineSelectedColor: {r: 1, g: 0.97789043, b: 0.19852942, a: 0}
   cam: {fileID: 344136474}
-  Zoom: 150
+  Zoom: 75
   MinZoom: 1
   MaxZoom: 300
   ZoomSpeed: 30
@@ -758,6 +757,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1437008930}
+  - {fileID: 1825685112}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -772,7 +772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5330273cfafdcb47a8fc088a8fde653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NodePrefab: {fileID: 1250673915946288, guid: 4dcd9bc6f6df2f942acd9e581ff42b6d, type: 2}
+  NodePrefab: {fileID: 1576558684187692, guid: 3e99fa052f44a5540ba0edbe93c9fd58, type: 2}
   EdgePrefab: {fileID: 1887111784152414, guid: 59c7f65a33ef0484f9d766c51a73a626, type: 2}
 --- !u!75 &1629164531
 ConstantForce:
@@ -831,6 +831,71 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1533133319}
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+--- !u!1 &1825685111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1825685112}
+  - component: {fileID: 1825685113}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1825685112
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1825685111}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1629164529}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!108 &1825685113
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1825685111}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!114 &1872632870 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114470013030281562, guid: b731b38d340afba42aafa359cd1d8dc9,

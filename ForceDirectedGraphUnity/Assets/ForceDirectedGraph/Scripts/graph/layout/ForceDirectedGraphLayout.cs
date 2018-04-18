@@ -6,7 +6,8 @@ using AssemblyCSharp;
 public class ForceDirectedGraphLayout {
 
 	private bool running;
-	private GraphSceneComponents sceneComponents;
+    private bool isStatic = true;
+    private GraphSceneComponents sceneComponents;
 
     public ForceDirectedGraphLayout(GraphSceneComponents sceneComponents)
 	{
@@ -16,7 +17,7 @@ public class ForceDirectedGraphLayout {
 	public void DoInitialLayout()
 	{
 		sceneComponents.AcceptNode (node => {
-			node.SetPosition(new Vector3 (Random.Range (-150, 150), Random.Range (-150, 150), Random.Range (-150, 150)));
+			node.SetPosition(new Vector3 (Random.Range (-100, 100), Random.Range (-100, 100), Random.Range (-100, 100)));
 		});
 
 		UpdateEdges ();
@@ -62,6 +63,7 @@ public class ForceDirectedGraphLayout {
         Vector3 dirToCenter = -Rb.transform.position;
         Vector3 impulse = dirToCenter.normalized * Rb.mass * GraphRenderer.Singleton.globalGravityPhysX;
         Rb.AddForce(impulse);
+
     }
 
     private void doRepulse(Rigidbody Rb,Collider[] hitResult, float sphRadiusSqr)
@@ -89,6 +91,9 @@ public class ForceDirectedGraphLayout {
 
     public void DoLayout (float time)
 	{
+        if (isStatic) {
+            GraphRenderer.Singleton.globalGravityPhysX = 0;
+        }
 		if (running) {
 			return;
 		}
@@ -102,11 +107,10 @@ public class ForceDirectedGraphLayout {
         float sphRadius = GraphRenderer.Singleton.nodePhysXForceSphereRadius;
         float sphRadiusSqr = sphRadius * sphRadius;
         float intendedLinkLengthSqr = GraphRenderer.Singleton.linkIntendedLinkLength * GraphRenderer.Singleton.linkIntendedLinkLength;
-        bool repulseActive = GraphRenderer.Singleton.RepulseActive;
-        foreach (var n in sceneComponents.nodeComponents) {
+
+        foreach (var n in sceneComponents.nodeComponents) {          
             doGravity(n.Rb);
-            if(repulseActive)
-                doRepulse(n.Rb, n.aoundColliders, sphRadiusSqr);
+            doRepulse(n.Rb, n.aoundColliders, sphRadiusSqr);
         }
 
         foreach (var e in sceneComponents.edgeComponents) {

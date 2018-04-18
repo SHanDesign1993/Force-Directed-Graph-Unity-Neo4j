@@ -20,15 +20,17 @@ namespace AssemblyCSharp
 		private void InitializeNodeComponent()
 		{
 
-			SpriteRenderer sprite = GetVisualComponent ().GetComponent<SpriteRenderer> ();
-			sprite.name = "Node_" + graphNode.GetId ();
+            Renderer sprite = GetVisualComponent().GetComponent<Renderer>();
+            //SpriteRenderer sprite = GetVisualComponent ().GetComponent<SpriteRenderer> ();
+            sprite.name = "Node_" + graphNode.GetId ();
 
 			TextMesh text = GetVisualComponent ().GetComponentInChildren<TextMesh>();
 			text.text = "" + graphNode.GetTitle();
 
             if (graphNode.GetNType()=="M")
             {
-                GetVisualComponent().GetComponentInChildren<SpriteRenderer>().material.color = Color.yellow;
+                sprite.material.color = Color.yellow;
+                GetVisualComponent().transform.GetChild(1).GetComponent<Renderer>().material.color = new Color(0.19f,0.8f, 0.19f);
             }
             
 
@@ -42,7 +44,7 @@ namespace AssemblyCSharp
             LayerMask mask = 1 << LayerMask.NameToLayer("Node");
             Physics.OverlapSphereNonAlloc(Rb.transform.position, GraphRenderer.Singleton.nodePhysXForceSphereRadius, aoundColliders, mask);
             // Physics.OverlapSphere calls gc
-            //hitResult = Physics.OverlapSphere(Rb.transform.position, sphRadius, mask);
+            //aoundColliders = Physics.OverlapSphere(Rb.transform.position, GraphRenderer.Singleton.nodePhysXForceSphereRadius, mask);
         }
 
         public AbstractGraphNode GetGraphNode()
