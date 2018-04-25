@@ -8,16 +8,17 @@ namespace AssemblyCSharp
 		private Graph graph;
 		private GraphSceneComponents graphSceneComponents;
 		private GraphScenePrefabs graphScenePrefabs;
-		private ForceDirectedGraphLayout graphLayout;
+        //private ForceDirectedGraphLayout graphLayout;
+        private FruchtermanReingoldLayout graphLayout;
 
-
-		public GraphScene (Graph graph, GraphScenePrefabs graphScenePrefabs)
+        public GraphScene (Graph graph, GraphScenePrefabs graphScenePrefabs)
 		{
 			this.graph = graph;
 			this.graphScenePrefabs = graphScenePrefabs;
 			this.graphSceneComponents = new GraphSceneComponents ();
-			this.graphLayout = new ForceDirectedGraphLayout(this.graphSceneComponents);
-			this.graph.AddGraphListener (this);
+            //this.graphLayout = new ForceDirectedGraphLayout(this.graphSceneComponents);
+            this.graphLayout = new FruchtermanReingoldLayout(this.graphSceneComponents);
+            this.graph.AddGraphListener (this);
 		}
 
 		public void DrawGraph()
@@ -28,6 +29,7 @@ namespace AssemblyCSharp
 
 			graphLayout.DoInitialLayout ();
         }
+
 
 		public void GraphNodeCreated(AbstractGraphNode graphNode)
 		{

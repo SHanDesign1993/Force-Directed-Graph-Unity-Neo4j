@@ -107,6 +107,7 @@
     <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\GraphListeners.cs" />
     <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\GraphNodeVisitor.cs" />
     <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\layout\ForceDirectedGraphLayout.cs" />
+    <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\layout\FruchtermanReingoldLayout.cs" />
     <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\RootNode.cs" />
     <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\scene\AbstractSceneComponent.cs" />
     <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\scene\EdgeComponent.cs" />
@@ -115,6 +116,10 @@
     <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\scene\GraphScenePrefabs.cs" />
     <Compile Include="Assets\ForceDirectedGraph\Scripts\graph\scene\NodeComponent.cs" />
     <Compile Include="Assets\ForceDirectedGraph\Scripts\GraphRenderer.cs" />
+    <Compile Include="Assets\ForceDirectedGraph\Scripts\Octree\BoundsOctree.cs" />
+    <Compile Include="Assets\ForceDirectedGraph\Scripts\Octree\BoundsOctreeNode.cs" />
+    <Compile Include="Assets\ForceDirectedGraph\Scripts\Octree\PointOctree.cs" />
+    <Compile Include="Assets\ForceDirectedGraph\Scripts\Octree\PointOctreeNode.cs" />
     <Compile Include="Assets\ForceDirectedGraph\Scripts\ServerConnector.cs" />
   </ItemGroup>
   <ItemGroup>

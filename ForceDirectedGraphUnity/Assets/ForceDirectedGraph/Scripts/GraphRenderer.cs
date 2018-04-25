@@ -61,6 +61,7 @@ public class GraphRenderer : MonoBehaviour {
     [Header("Data")]
     public Dictionary<int, AbstractGraphNode> nodes = new Dictionary<int, AbstractGraphNode>();
     public List<AbstractGraphEdge> rels = new List<AbstractGraphEdge>();
+    public Dictionary<string, string> relationship = new Dictionary<string, string>();
 
     void Awake() {
         Singleton = this;
@@ -115,12 +116,18 @@ public class GraphRenderer : MonoBehaviour {
                 }
 
             }
-
             foreach (var rel in graphdata.graph.relationships)
             {
-                
-                AbstractGraphEdge newEdge= graph.NewEdge(nodes[int.Parse(rel.startNode)], nodes[int.Parse(rel.endNode)], rel.type);
-                rels.Add(newEdge);
+                if (relationship.ContainsValue(rel.startNode + "" + rel.endNode))
+                {
+                    //Debug.LogError("Duplicate Edge " + int.Parse(rel.id) + ", Droping Edge");
+                }
+                else {
+                    //Debug.Log(rel.startNode + "-" + rel.endNode);
+                    AbstractGraphEdge newEdge = graph.NewEdge(nodes[int.Parse(rel.startNode)], nodes[int.Parse(rel.endNode)], rel.type);
+                    rels.Add(newEdge);
+                    relationship.Add(rel.id,rel.startNode+""+ rel.endNode);
+                }
             }
 
         }

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using NeoUnity;
 
@@ -10,6 +12,7 @@ namespace AssemblyCSharp
         public Node Node;
         public Rigidbody Rb;
         public Collider[] aoundColliders = new Collider[20];
+        public List<Rigidbody> ConnectedRb = new List<Rigidbody>();
 
         public NodeComponent (AbstractGraphNode graphNode, GameObject visualComponent) : base(visualComponent)
 		{

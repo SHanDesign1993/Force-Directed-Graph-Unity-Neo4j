@@ -7,6 +7,7 @@ public class ForceDirectedGraphLayout {
 
 	private bool running;
     private bool isStatic = true;
+    private float halfWidth = 0;
     private GraphSceneComponents sceneComponents;
 
     public ForceDirectedGraphLayout(GraphSceneComponents sceneComponents)
@@ -21,21 +22,68 @@ public class ForceDirectedGraphLayout {
 		});
 
 		UpdateEdges ();
-
+        
         //hitResult = new Collider[sceneComponents.nodeComponents.Count/5];
     }
 
 	protected void UpdateEdges()
 	{
 		sceneComponents.AcceptEdge (edgeComponent => {
-			AbstractGraphEdge edge = edgeComponent.GetGraphEdge();
+            edgeComponent.sourceRb.mass++;
+            edgeComponent.targetRb.mass++;
+
+            
+            AbstractGraphEdge edge = edgeComponent.GetGraphEdge();
 			AbstractGraphNode startNode = edge.GetStartGraphNode();
 			AbstractGraphNode endNode = edge.GetEndGraphNode();
-			edgeComponent.UpdateGeometry(
+
+            sceneComponents.GetNodeComponent(startNode.GetId()).ConnectedRb.Add(sceneComponents.GetNodeComponent(endNode.GetId()).Rb);
+            sceneComponents.GetNodeComponent(endNode.GetId()).ConnectedRb.Add(sceneComponents.GetNodeComponent(startNode.GetId()).Rb);
+
+
+            edgeComponent.UpdateGeometry(
 				sceneComponents.GetNodeComponent(startNode.GetId()).GetVisualComponent().transform.position, 
 				sceneComponents.GetNodeComponent(endNode.GetId()).GetVisualComponent().transform.position);
 		});
-	}
+
+        float MostEdgesNodeCount = 0;
+        
+        foreach (var n in sceneComponents.nodeComponents)
+        {
+            n.Rb.mass--;
+            if (n.Rb.mass > MostEdgesNodeCount) {
+                MostEdgesNodeCount = n.Rb.mass;
+            }
+        }
+     }
+
+    private Vector3[] PointsOnSphere(int n,Vector3 center)
+    {
+        List<Vector3> upts = new List<Vector3>();
+        float inc = Mathf.PI * (3 - Mathf.Sqrt(5));
+        float off = 2.0f / n;
+        float x = 0;
+        float y = 0;
+        float z = 0;
+        float r = 0;
+        float phi = 0;
+
+        for (var k = 0; k < n; k++)
+        {
+            y = k * off - 1 + (off / 2);
+            r = Mathf.Sqrt(1 - y * y);
+            phi = k * inc;
+            x = Mathf.Cos(phi) * r;
+            z = Mathf.Sin(phi) * r;
+            var pt = new Vector3(x + center.x, y + center.y, z + center.z);
+            upts.Add(pt);
+            Debug.Log(pt);
+        }
+        Vector3[] pts = upts.ToArray();
+        return pts;
+    }
+
+ 
 
     private void doAttraction(Rigidbody sourceRb, Rigidbody targetRb , float intendedLinkLengthSqr)
     {
@@ -108,14 +156,55 @@ public class ForceDirectedGraphLayout {
         float sphRadiusSqr = sphRadius * sphRadius;
         float intendedLinkLengthSqr = GraphRenderer.Singleton.linkIntendedLinkLength * GraphRenderer.Singleton.linkIntendedLinkLength;
 
+
         foreach (var n in sceneComponents.nodeComponents) {          
-            doGravity(n.Rb);
-            doRepulse(n.Rb, n.aoundColliders, sphRadiusSqr);
+            //doGravity(n.Rb);
+            //doRepulse(n.Rb, n.aoundColliders, sphRadiusSqr);
         }
 
         foreach (var e in sceneComponents.edgeComponents) {
-            doAttraction(e.sourceRb, e.targetRb, intendedLinkLengthSqr);
+            //doAttraction(e.sourceRb, e.targetRb, intendedLinkLengthSqr);
         }
+
+
+        /*
+        Octree tree = new Octree(2.1f * halfWidth);
+        foreach (var n in sceneComponents.nodeComponents)
+        {
+            tree.Add(n.Rb.gameObject);
+        }
+        foreach (var n in sceneComponents.nodeComponents)
+        {
+            // Apply repulsion between nodes. 
+            tree.Accelerate(n.Rb.gameObject);
+            
+            // Apply origin attraction of nodes. 
+            Vector3 originDisplacementUnit = -n.Rb.gameObject.transform.position;
+            float originDistance = n.Rb.gameObject.transform.position.magnitude;
+
+            float attractionCofficient = 2e4f;
+            if (originDistance < GraphRenderer.Singleton.linkIntendedLinkLength)
+                attractionCofficient *= originDistance / GraphRenderer.Singleton.linkIntendedLinkLength;
+
+            n.Rb.AddForce(originDisplacementUnit * attractionCofficient / (originDistance + 7000));
+            Debug.Log(n.Node.ID + ":" + originDisplacementUnit * attractionCofficient / (originDistance + 7000));
+            // Apply edge spring forces. 
+            foreach (var r in n.ConnectedRb)
+            {
+                // Gets a vector that points from the player's position to the target's.
+                var heading = r.position - n.Rb.position;
+                var distance = heading.magnitude;
+                var direction = heading / distance; // This is now the normalized direction.
+
+                float idealLength = GraphRenderer.Singleton.linkIntendedLinkLength + n.Rb.GetComponent<SphereCollider>().radius + r.GetComponent<SphereCollider>().radius;
+
+                n.Rb.AddForce(direction * (distance - idealLength) / n.Rb.mass);
+                
+            }
+        }
+        */
+
+
     }
 
 }

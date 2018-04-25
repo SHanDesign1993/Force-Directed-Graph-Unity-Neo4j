@@ -812,7 +812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Entity1_Str: Movie
-  Entity2_Str: Person
+  Entity2_Str: Movie
   QueryText: {fileID: 138156984}
   QueryLimit: 250
   Username: neo4j

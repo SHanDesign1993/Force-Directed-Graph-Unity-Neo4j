@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="ForceDirectedGraphUnity.CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ForceDirectedGraph\Scripts\graph\layout\ForceDirectedGraphLayout.cs">
+    <Files>
+      <File FileName="Assets\ForceDirectedGraph\Scripts\graph\layout\ForceDirectedGraphLayout.cs" Line="109" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
