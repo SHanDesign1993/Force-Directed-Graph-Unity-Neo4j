@@ -738,6 +738,8 @@ MonoBehaviour:
   linkIntendedLinkLength: 25
   globalGravityPhysX: 10
   nodePhysXForceSphereRadius: 10
+  maxDisplace: 0
+  k: 0
   LineOriginColor: {r: 0.8416955, g: 0.97727895, b: 1, a: 1}
   LineSelectedColor: {r: 1, g: 0.97789043, b: 0.19852942, a: 0}
   cam: {fileID: 344136474}

@@ -20,6 +20,7 @@ namespace AssemblyCSharp
 			InitializeNodeComponent ();
 		}
 
+
 		private void InitializeNodeComponent()
 		{
 

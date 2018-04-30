@@ -7,9 +7,13 @@ namespace AssemblyCSharp
 {
 	public class FruchtermanReingoldLayout 
 	{
-		private float area = 8000;
-		private float speed = 3;
+		
+		private float speed = 10;
         private GraphSceneComponents sceneComponents;
+
+        private float iterator = 0;
+        private float MaxIterations = 1000;  
+ 
 
         public FruchtermanReingoldLayout(GraphSceneComponents sceneComponents)
         {
@@ -21,7 +25,6 @@ namespace AssemblyCSharp
             sceneComponents.AcceptNode(node => {
                 node.SetPosition(new Vector3(Random.Range(-100, 100), Random.Range(-100, 100), Random.Range(-100, 100)));
             });
-
             UpdateEdges();
         }
 
@@ -56,29 +59,39 @@ namespace AssemblyCSharp
                     n.SetPosition(Vector3.zero);
                 }
             }
-
         }
 
         public void DoLayout(float time)
 		{
-            float maxDisplace = (float)(Mathf.Sqrt(area) / 3F);
-            float k = (float)Mathf.Sqrt(area / (1 + sceneComponents.nodeComponents.Count));
+            if (iterator >= MaxIterations)
+            {
+                if (GraphRenderer.Singleton.SelectedObject)
+                    iterator = 0;
+                
+            } else {
+                iterator += Time.deltaTime * 200f;
+                ApplyForce();
+            }
+
+		}
+
+        private void ApplyForce() {
 
             foreach (var n1 in sceneComponents.nodeComponents)
             {
                 foreach (var n2 in sceneComponents.nodeComponents)
                 {
-                    if (n1.GetGraphNode().GetId() != n2.GetGraphNode().GetId())
+                    if (n1.Node.ID != n2.Node.ID)
                     {
-                        float xDist = n1.GetPosition().x - n2.GetPosition().x;
-                        float yDist = n1.GetPosition().y - n2.GetPosition().y;
-                        float zDist = n1.GetPosition().z - n2.GetPosition().z;
+                        float xDist = n1.Node.transform.position.x - n2.Node.transform.position.x;
+                        float yDist = n1.Node.transform.position.y - n2.Node.transform.position.y;
+                        float zDist = n1.Node.transform.position.z - n2.Node.transform.position.z;
                         float dist = (float)Mathf.Sqrt(xDist * xDist + yDist * yDist + zDist * zDist);
 
                         if (dist > 0)
                         {
-                            float repulsiveF = k * k / dist;
-                            n1.Rb.AddForce(new Vector3(xDist / dist * repulsiveF, yDist / dist * repulsiveF, zDist / dist * repulsiveF)*speed);
+                            float repulsiveF = GraphRenderer.Singleton.k * GraphRenderer.Singleton.k / dist;
+                            n1.Rb.AddForce(new Vector3(xDist / dist * repulsiveF, yDist / dist * repulsiveF, zDist / dist * repulsiveF) * speed);
                         }
                     }
                 }
@@ -94,16 +107,16 @@ namespace AssemblyCSharp
                 float zDist = nf.transform.position.z - nt.transform.position.z;
                 float dist = (float)Mathf.Sqrt(xDist * xDist + yDist * yDist + zDist * zDist);
 
-                float attractiveF = dist * dist / k;
+                float attractiveF = dist * dist / GraphRenderer.Singleton.k;
 
                 if (dist > 0)
                 {
-
-                    nf.AddForce(new Vector3(-xDist / dist * attractiveF, -yDist / dist * attractiveF, -zDist / dist * attractiveF) *speed);
+                    nf.AddForce(new Vector3(-xDist / dist * attractiveF, -yDist / dist * attractiveF, -zDist / dist * attractiveF) * speed);
                     nt.AddForce(new Vector3(xDist / dist * attractiveF, yDist / dist * attractiveF, zDist / dist * attractiveF) * speed);
                 }
             }
-		}
+
+        }
 	}
 }
 

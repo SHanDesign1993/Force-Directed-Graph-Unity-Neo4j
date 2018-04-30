@@ -40,8 +40,11 @@ public class GraphRenderer : MonoBehaviour {
     public float globalGravityPhysX = 10f;
     
     [SerializeField]
-    public float nodePhysXForceSphereRadius = 50F;                  
-    
+    public float nodePhysXForceSphereRadius = 50F;
+
+    private float area = 8000;
+    public float maxDisplace = 0;
+    public float k = 0;
 
     public Color LineOriginColor;
     public Color LineSelectedColor;
@@ -131,6 +134,10 @@ public class GraphRenderer : MonoBehaviour {
             }
 
         }
+
+        maxDisplace = (float)(Mathf.Sqrt(area) / 3F);
+        k = (float)Mathf.Sqrt(area / (1 + nodes.Count));
+
         graphScene.DrawGraph();
         UpdateStatus();
     }
