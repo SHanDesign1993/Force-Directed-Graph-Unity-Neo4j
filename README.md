@@ -27,7 +27,6 @@ Frontend(On Graph Object in Scene):
  new Graph and GraphScene in Awake(). and create Nodes and Edges(Relationship) while while receiving the neo4j data.
  
 Backend:
-
  - SimpleGraphBackend.cs : extend AbstractGraphBackend.cs Interface.
  - SimpleGraphEdge.cs : extend AbstractGraphEdge.cs Interface.
  - SimpleGraphNode.cs : extend AbstractGraphNode.cs Interface.
@@ -35,4 +34,4 @@ Backend:
  - GraphScene.cs : set nodes distance by updating SpringJoint Rigidbody SphereCollider component 
  - NodeComponent.cs : extend AbstractSceneComponent.cs Interface. Initial Node gameObject.
  - EdgeComponent.cs : extend AbstractSceneComponent.cs Interface. Set LineRenderer between 2 Node gameObjects.
- - ForceDirectedGraphLayout.cs : Calculate Attraction,Repulsion,Gravity physics force between nodes. 
+ - FruchtermanReingoldLayout.cs : Calculate Attraction,Repulsion,Gravity physics force between nodes by Fruchterman-Reingold algorithm. 
