@@ -35,3 +35,7 @@ Backend:
  - NodeComponent.cs : extend AbstractSceneComponent.cs Interface. Initial Node gameObject.
  - EdgeComponent.cs : extend AbstractSceneComponent.cs Interface. Set LineRenderer between 2 Node gameObjects.
  - FruchtermanReingoldLayout.cs : Calculate Attraction,Repulsion,Gravity physics force between nodes by Fruchterman-Reingold algorithm. 
+
+the git repo is only a experimental project. the parameters setting and 1000 Iterations is a rough number to show small amount of nodes.
+Theoretically, the force-directed graph needs more time (iterations) by different amount level to draw a relatively stable graph.
+add up the Iterations and decrease speed in FruchtermanReingoldLayout.cs  and increase area in GraphRenderer.cs to fit larger graph. 
